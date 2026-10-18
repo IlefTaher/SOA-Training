@@ -34,7 +34,7 @@ public class AuthenticationEndPoint {
     private UriInfo uriInfo;
 
     @POST
-    @Produces(MediaType.TEXT_PLAIN)
+    @Produces(MediaType.APPLICATION_JSON)
     @Consumes(MediaType.APPLICATION_FORM_URLENCODED)
 
     // @Produces(MediaType.TEXT_PLAIN)
